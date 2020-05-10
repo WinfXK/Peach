@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:gravity="center_horizontal"
+    tools:context="cn.winfxk.android.peach.Main" >
+
+    <cn.winfxk.android.peach.tool.MyImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/main_bingyue_wh"
+        android:layout_height="@dimen/main_bingyue_wh"
+        android:layout_marginTop="@dimen/main_bingyue_mtop"
+        android:contentDescription="@string/bingyue"
+        android:src="@drawable/bingyue" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/main_setqq_w"
+        android:layout_height="@dimen/main_setqq_h"
+        android:layout_above="@+id/button2"
+        android:background="@drawable/button2"
+        android:onClick="setQQ"
+        android:text="@string/set_qq"
+        android:textColor="@color/main_setqq" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/main_setqq_w"
+        android:layout_height="@dimen/main_setqq_h"
+        android:layout_above="@+id/button3"
+        android:background="@drawable/button1"
+        android:onClick="showWindow"
+        android:text="@string/show_window"
+        android:textColor="@color/main_show_window" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/main_setqq_w"
+        android:layout_height="@dimen/main_setqq_h"
+        android:layout_above="@+id/button4"
+        android:background="@drawable/button3"
+        android:onClick="onLongClick"
+        android:text="@string/author"
+        android:textColor="@color/author" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/main_setqq_w"
+        android:layout_height="@dimen/main_setqq_h"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button4"
+        android:onClick="onClose"
+        android:text="@string/close"
+        android:textColor="@color/close" />
+
+</RelativeLayout>

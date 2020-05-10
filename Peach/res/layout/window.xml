@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="@dimen/window_imagebutton_wh"
+        android:layout_height="@dimen/window_imagebutton_wh"
+        android:background="#00000000"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/window_imagebutton_p"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagebutton" />
+
+</LinearLayout>

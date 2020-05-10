@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/toast_all_max_w"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:maxWidth="@dimen/toast_all_max_w" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/toast_my_image_wh"
+        android:layout_height="@dimen/toast_my_image_wh"
+        android:layout_marginEnd="@dimen/toast_my_image_m"
+        android:layout_marginTop="@dimen/toast_my_image_m_top"
+        android:background="@drawable/toast_backg2"
+        android:contentDescription="@string/app_name"
+        android:rotation="-25"
+        android:scaleType="fitXY"
+        android:src="@drawable/toast_icon1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/toast_my_image_wh"
+        android:layout_height="@dimen/toast_my_image_wh"
+        android:layout_marginStart="@dimen/toast_my_image_m"
+        android:layout_marginTop="@dimen/toast_my_image_m_top"
+        android:layout_toEndOf="@+id/rinearLayout1"
+        android:background="@drawable/toast_backg2"
+        android:contentDescription="@string/app_name"
+        android:rotation="25"
+        android:scaleType="fitXY"
+        android:src="@drawable/toast_icon1" />
+
+    <RelativeLayout
+        android:id="@+id/rinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/toast_my_tv_marginTop"
+        android:layout_toEndOf="@+id/imageView1"
+        android:background="@drawable/toast_backg"
+        android:padding="@dimen/toast_my_tv_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/toast_my_tv_padding"
+            android:minWidth="@dimen/toast_my_text_mini_w"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/toast_my_text_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

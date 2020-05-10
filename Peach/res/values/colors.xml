@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_setqq">#e135b3</color>
+    <color name="main_show_window">#2d8479</color>
+    <color name="author">#5f2f24</color>
+    <color name="close">#12348a</color>
+    <color name="listbackg">#aa000000</color>
+    <color name="liststroke">#aaffffff</color>
+    <color name="list_item_text">#ffffff</color>
+
+</resources>

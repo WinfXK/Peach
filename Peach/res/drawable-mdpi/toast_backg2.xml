@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <padding
+        android:bottom="@dimen/toast_my_image_padding"
+        android:left="@dimen/toast_my_image_padding"
+        android:right="@dimen/toast_my_image_padding"
+        android:top="@dimen/toast_my_image_padding" />
+
+</shape>

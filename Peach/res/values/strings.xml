@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bingyue">冰月</string>
+    <string name="app_name">Peach</string>
+    <string name="set_qq">设置QQ号</string>
+    <string name="show_window">显示悬浮窗</string>
+    <string name="author">关于作者</string>
+    <string name="close">退出程序</string>
+
+</resources>

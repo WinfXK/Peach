@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center_horizontal"
+    tools:context="cn.winfxk.android.peach.MainActivity" >
+
+    <cn.winfxk.android.peach.tool.MyImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/main_bingyue_wh"
+        android:layout_height="@dimen/main_bingyue_wh"
+        android:layout_alignParentBottom="true"
+        android:alpha="0"
+        android:contentDescription="@string/bingyue"
+        android:src="@drawable/bingyue" />
+
+</RelativeLayout>
